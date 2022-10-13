@@ -10,9 +10,11 @@
   .nav {
     height: fit-content;
     width: 100%;
-    background-color: rebeccapurple;
+    background-color: grey;
     position: fixed;
     top:0;
+    opacity: 0.7;
+    height: 10%;
   }
   
   .nav > .nav-header {
@@ -23,7 +25,7 @@
     display: inline-block;
     font-size: 22px;
     color: #fff;
-    padding: 10px 10px 10px 10px;
+    padding: 5px 5px 0px 10px;
   }
   
   .nav > .nav-btn {
@@ -34,15 +36,16 @@
     display: inline;
     float: right;
     font-size: 1.3rem;
-    margin-top: 1vw;
+    /* margin-top: 1vw; */
+
   }
   
   .nav > .nav-links > a {
     display: inline-block;
     padding-left: 2vw;
     padding-right: 2vw;
-    padding-top: 3.2vw;
-    padding-bottom: 3.2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
     text-decoration: none;
     color: #efefef;
   }
@@ -144,10 +147,10 @@
     
     padding: 2px 2px;
     border-radius: 10px;
-    width: 70%;
+    width: 45%;
     text-align: center;
     justify-content: center;
-    margin-left: 15%;
+    margin-left: 7%;
     margin-right: 15%;
     margin-bottom: 35vw;
     margin-top: 19vw;
