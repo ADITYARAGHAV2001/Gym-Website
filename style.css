@@ -172,3 +172,13 @@
     width: 90%;
     margin: 25px;
 }
+
+footer {  
+  background-color: rgb(97, 96, 96);
+  padding: 15px;
+  font-size: 80%;
+  text-align: center;
+  margin-top: 350px;
+  font-weight:bold;
+  color: rgb(245, 240, 240);
+ }
