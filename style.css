@@ -20,14 +20,14 @@
   }
   
   .nav > .nav-header {
-    display: block;
+    display: inline;
   }
   
   .nav > .nav-header > .nav-title {
     display: inline-block;
     font-size: 22px;
     color: #fff;
-    padding: 5px 5px 0px 10px;
+    padding: 20px 5px 0px 10px;
   }
   
   .nav > .nav-btn {
